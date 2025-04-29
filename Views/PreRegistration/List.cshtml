@@ -1,0 +1,35 @@
+﻿@model IEnumerable<KullaniciGiris.Models.PreRegistration>
+
+<h2>Kayıtlı Kullanıcılar</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Ad</th>
+            <th>Soyad</th>
+            <th>Doğum Tarihi</th>
+            <th>Ülke</th>
+            <th>Şehir</th>
+            <th>Cinsiyet</th>
+            <th>Açıklama</th>
+            <th>Detay</th> 
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.FirstName</td>
+                <td>@item.LastName</td>
+                <td>@item.DateOfBirth.ToShortDateString()</td>
+                <td>@item.Country</td>
+                <td>@item.City</td>
+                <td>@item.Gender</td>
+                <td>@item.Description</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">Detay</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

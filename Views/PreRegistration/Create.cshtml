@@ -1,0 +1,81 @@
+@model KullaniciGiris.ViewModels.PreRegistrationViewModel
+
+@{
+    ViewData["Title"] = "Kayıt Formu";
+}
+
+<h2>Kayıt Formu</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="PreRegistration.FirstName" class="control-label">Ad</label>
+        <input asp-for="PreRegistration.FirstName" class="form-control" />
+        <span asp-validation-for="PreRegistration.FirstName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PreRegistration.LastName" class="control-label">Soyad</label>
+        <input asp-for="PreRegistration.LastName" class="form-control" />
+        <span asp-validation-for="PreRegistration.LastName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="countrySelect">Ülke</label>
+        <select asp-for="PreRegistration.Country" asp-items="Model.CountryList" class="form-control" id="countrySelect">
+            <option value="">-- Ülke Seçin --</option>
+        </select>
+        <span asp-validation-for="PreRegistration.Country" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="citySelect">Şehir</label>
+        <select asp-for="PreRegistration.SelectedCity" asp-items="Model.CityList" class="form-control" id="citySelect">
+            <option value="">-- Şehir Seçin --</option>
+        </select>
+        <span asp-validation-for="PreRegistration.SelectedCity" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        const cityData = {
+            'Türkiye': ['İstanbul', 'Ankara', 'İzmir'],
+            'Almanya': ['Berlin', 'Hamburg', 'Münih'],
+            'Fransa': ['Paris', 'Lyon', 'Nice']
+        };
+
+        const countrySelect = document.getElementById("countrySelect");
+        const citySelect = document.getElementById("citySelect");
+
+        // Başlangıçta şehir seçim alanını kapatalım (ülke seçilmeden görünmesin)
+        citySelect.disabled = true;
+
+        countrySelect.addEventListener("change", function () {
+            const selectedCountry = this.value;
+
+            // Şehir select kutusunu temizle
+            citySelect.innerHTML = '<option value="">-- Şehir Seçin --</option>';
+
+            if (selectedCountry && cityData[selectedCountry]) {
+                cityData[selectedCountry].forEach(function (city) {
+                    const option = document.createElement("option");
+                    option.value = city;
+                    option.text = city;
+                    citySelect.appendChild(option);
+                });
+
+                // Şehir seçimi aktif olsun
+                citySelect.disabled = false;
+            } else {
+                // Ülke seçilmediyse şehir listesi yine boş ve devre dışı
+                citySelect.disabled = true;
+            }
+        });
+    </script>
+
+}

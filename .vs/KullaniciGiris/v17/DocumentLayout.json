@@ -1,0 +1,129 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pc\\Desktop\\webapp\\yedek\\KullaniciGiris_Cleaned\\KullaniciGiris\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E261E95-950E-4542-9B10-F58CEC1F3EBB}|KullaniciGiris.csproj|c:\\users\\pc\\desktop\\webapp\\yedek\\kullanicigiris_cleaned\\kullanicigiris\\views\\preregistration\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E261E95-950E-4542-9B10-F58CEC1F3EBB}|KullaniciGiris.csproj|solutionrelative:views\\preregistration\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E261E95-950E-4542-9B10-F58CEC1F3EBB}|KullaniciGiris.csproj|c:\\users\\pc\\desktop\\webapp\\yedek\\kullanicigiris_cleaned\\kullanicigiris\\models\\preregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E261E95-950E-4542-9B10-F58CEC1F3EBB}|KullaniciGiris.csproj|solutionrelative:models\\preregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E261E95-950E-4542-9B10-F58CEC1F3EBB}|KullaniciGiris.csproj|c:\\users\\pc\\desktop\\webapp\\yedek\\kullanicigiris_cleaned\\kullanicigiris\\controllers\\preregistrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E261E95-950E-4542-9B10-F58CEC1F3EBB}|KullaniciGiris.csproj|solutionrelative:controllers\\preregistrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E261E95-950E-4542-9B10-F58CEC1F3EBB}|KullaniciGiris.csproj|c:\\users\\pc\\desktop\\webapp\\yedek\\kullanicigiris_cleaned\\kullanicigiris\\views\\preregistration\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E261E95-950E-4542-9B10-F58CEC1F3EBB}|KullaniciGiris.csproj|solutionrelative:views\\preregistration\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E261E95-950E-4542-9B10-F58CEC1F3EBB}|KullaniciGiris.csproj|c:\\users\\pc\\desktop\\webapp\\yedek\\kullanicigiris_cleaned\\kullanicigiris\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E261E95-950E-4542-9B10-F58CEC1F3EBB}|KullaniciGiris.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E261E95-950E-4542-9B10-F58CEC1F3EBB}|KullaniciGiris.csproj|c:\\users\\pc\\desktop\\webapp\\yedek\\kullanicigiris_cleaned\\kullanicigiris\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9E261E95-950E-4542-9B10-F58CEC1F3EBB}|KullaniciGiris.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PreRegistrationController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\webapp\\yedek\\KullaniciGiris_Cleaned\\KullaniciGiris\\Controllers\\PreRegistrationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PreRegistrationController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\webapp\\yedek\\KullaniciGiris_Cleaned\\KullaniciGiris\\Controllers\\PreRegistrationController.cs",
+              "RelativeToolTip": "Controllers\\PreRegistrationController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T08:19:01.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\webapp\\yedek\\KullaniciGiris_Cleaned\\KullaniciGiris\\Views\\PreRegistration\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\PreRegistration\\Create.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\webapp\\yedek\\KullaniciGiris_Cleaned\\KullaniciGiris\\Views\\PreRegistration\\Create.cshtml",
+              "RelativeToolTip": "Views\\PreRegistration\\Create.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T08:04:06.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PreRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\webapp\\yedek\\KullaniciGiris_Cleaned\\KullaniciGiris\\Models\\PreRegistration.cs",
+              "RelativeDocumentMoniker": "Models\\PreRegistration.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\webapp\\yedek\\KullaniciGiris_Cleaned\\KullaniciGiris\\Models\\PreRegistration.cs",
+              "RelativeToolTip": "Models\\PreRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T07:45:07.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\webapp\\yedek\\KullaniciGiris_Cleaned\\KullaniciGiris\\Views\\PreRegistration\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\PreRegistration\\List.cshtml",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\webapp\\yedek\\KullaniciGiris_Cleaned\\KullaniciGiris\\Views\\PreRegistration\\List.cshtml",
+              "RelativeToolTip": "Views\\PreRegistration\\List.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T07:29:04.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\webapp\\yedek\\KullaniciGiris_Cleaned\\KullaniciGiris\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\webapp\\yedek\\KullaniciGiris_Cleaned\\KullaniciGiris\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T07:30:45.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\webapp\\yedek\\KullaniciGiris_Cleaned\\KullaniciGiris\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\webapp\\yedek\\KullaniciGiris_Cleaned\\KullaniciGiris\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-21T11:13:12.938Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

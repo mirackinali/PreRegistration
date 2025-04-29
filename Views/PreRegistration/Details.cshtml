@@ -1,0 +1,27 @@
+﻿@model KullaniciGiris.Models.PreRegistration
+
+<h2>@Model.FirstName @Model.LastName - Detay</h2>
+
+<div>
+    <strong>Ad:</strong> @Model.FirstName
+</div>
+<div>
+    <strong>Soyad:</strong> @Model.LastName
+</div>
+<div>
+    <strong>Doğum Tarihi:</strong> @Model.DateOfBirth.ToShortDateString()
+</div>
+<div>
+    <strong>Ülke:</strong> @Model.Country
+</div>
+<div>
+    <strong>Şehir:</strong> @Model.City
+</div>
+<div>
+    <strong>Cinsiyet:</strong> @Model.Gender
+</div>
+<div>
+    <strong>Açıklama:</strong> @Model.Description
+</div>
+
+<a href="@Url.Action("List", "PreRegistration")" class="btn btn-primary">Geri</a>
